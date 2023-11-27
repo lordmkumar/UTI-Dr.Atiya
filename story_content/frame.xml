@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10101100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
   <layouts>
-    <layout name="npnxnanbsnfns10101100101" font="Lato" controllayout="npnxnanbsnfns10101100101" colorscheme="pxabnsnfns10101100101" string_table="pxabnsnfns10101100101" />
-    <layout name="pxabnsnfns10101100101" font="Lato" controllayout="pxabnsnfns10101100101" colorscheme="pxabnsnfns10101100101" string_table="pxabnsnfns10101100101" />
-    <layout name="npxnabnsnfns10101100101" font="Lato" controllayout="npxnabnsnfns10101100101" colorscheme="pxabnsnfns10101100101" string_table="pxabnsnfns10101100101" />
-    <layout name="npnxnanbnsnfns10101100101" font="Lato" controllayout="npnxnanbnsnfns10101100101" colorscheme="pxabnsnfns10101100101" string_table="pxabnsnfns10101100101" />
-    <layout name="pxabnsnfns10101100100" font="Lato" controllayout="pxabnsnfns10101100100" colorscheme="pxabnsnfns10101100101" string_table="pxabnsnfns10101100101" />
+    <layout name="npnxnanbsnfns10111100101" font="Lato" controllayout="npnxnanbsnfns10111100101" colorscheme="pxabnsnfns10111100101" string_table="pxabnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100101" font="Lato" controllayout="pxabnsnfns10111100101" colorscheme="pxabnsnfns10111100101" string_table="pxabnsnfns10111100101" />
+    <layout name="npxnabnsnfns10111100101" font="Lato" controllayout="npxnabnsnfns10111100101" colorscheme="pxabnsnfns10111100101" string_table="pxabnsnfns10111100101" />
+    <layout name="npnxnanbnsnfns10111100101" font="Lato" controllayout="npnxnanbnsnfns10111100101" colorscheme="pxabnsnfns10111100101" string_table="pxabnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100100" font="Lato" controllayout="pxabnsnfns10111100100" colorscheme="pxabnsnfns10111100101" string_table="pxabnsnfns10111100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -65,7 +65,7 @@
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="false" />
+          <option name="pauseplay" value="true" />
           <option name="replay" value="true" />
           <option name="search" value="false" />
           <option name="closed_captions" value="true">
@@ -93,11 +93,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10101100101">
+    <control_layout name="npnxnanbsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -118,11 +118,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10101100101">
+    <control_layout name="pxabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -143,11 +143,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10101100101">
+    <control_layout name="npxnabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -168,11 +168,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10101100101">
+    <control_layout name="npnxnanbnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -193,11 +193,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10101100100">
+    <control_layout name="pxabnsnfns10111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -220,7 +220,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns10101100101">
+    <colorscheme name="pxabnsnfns10111100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1398,7 +1398,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns10101100101">
+    <string_table name="pxabnsnfns10111100101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1577,14 +1577,14 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5WxRwexv5Km" displaytext="Fever Coponent" expand="true" type="slide">
+        <slidelink slideid="_player.5WxRwexv5Km" displaytext="Approach to UTI" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5WxRwexv5Km.6RDa7AKvYaG" displaytext="Approach to a patient with UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6guhtHwYUGu" displaytext="Objectives" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6lanc8R4zIQ" displaytext="45 year old male presents with complaints of burning micturition, dysuria since 3 days. There is no history of urethral discharge. What is the most like diagnosis in this patient?" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.64xNOimjvVP" displaytext="A 22 year old female presents with history of dysuria, burning and frequency of micturition since 3 days. There is no history of vaginal discharge. What is most like diagnosis" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5zAVQt3Q0tu" displaytext="Which of the following medication is contraindicated in pregnancy to treat UTIs?" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6XD3Sgzh95h" displaytext="Types of UTI" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.6XD3Sgzh95h" displaytext="Difference between Uncomplicated and Complicated UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5iPfEtuieG3" displaytext="Types of Scenarios" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6QzsMt3Uqgz" displaytext="Symptoms of UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6mPAu8k3uqU" displaytext="Other factors to consider" expand="false" type="slide" />
@@ -1602,6 +1602,8 @@
             <slidelink slideid="_player.5WxRwexv5Km.6Cpd1ATQL6B" displaytext="45 year old male presents with complaints of burning micturition, dysuria since 3 days. There is no history of urethral discharge. What is the most like diagnosis in this patient?" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6SgKFye6a2t" displaytext="A 22 year old female presents with history of dysuria, burning and frequency of micturition since 3 days. There is no history of vaginal discharge. What is most like diagnosis" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6ekdDXuNb5y" displaytext="Which of the following medication is contraindicated in pregnancy to treat UTIs?" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.5YOi3XeS5Bg" displaytext="   " expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.5syxP2uhOv7" displaytext="Diagnostic Approach - UTI" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
