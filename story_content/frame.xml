@@ -1436,8 +1436,6 @@
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
       <string id="background_audio">Background audio</string>
-      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
-      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="modern_video_settings_close">close video settings</string>
@@ -1461,13 +1459,10 @@
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="acc_closed_captions">Closed captions.</string>
-      <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
       <string id="playback_speed_title">Playback Speed</string>
       <string id="playback_speed_normal">Normal</string>
-      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1485,48 +1480,38 @@
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="mute_shortcut">Mute / unmute</string>
-      <string id="next_shortcut">Next slide</string>
+      <string id="next_shortcut">Next</string>
       <string id="playpause_shortcut">Play / pause</string>
-      <string id="previous_shortcut">Previous slide</string>
-      <string id="replay_shortcut">Replay slide</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
       <string id="shortcut">Shortcut</string>
-      <string id="submit_shortcut">Submit slide</string>
+      <string id="submit_shortcut">Submit</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="background_audio_shortcut">Toggle background audio</string>
-      <string id="closedcaptions_shortcut">Toggle closed captions</string>
-      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="progress_minute">minute</string>
       <string id="progress_minutes">minutes</string>
-      <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
-      <string id="acc_next">next</string>
-      <string id="next_slide_tip">Next slide</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
-      <string id="acc_pause">pause</string>
-      <string id="pause_tip">Pause</string>
-      <string id="acc_play">play</string>
-      <string id="play_tip">Play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
-      <string id="previous_slide_tip">Previous slide</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
       <string id="question_list">Question List</string>
-      <string id="replay_tip">Replay</string>
-      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
       <string id="acc_locked">locked</string>
       <string id="acc_search_input">search</string>
-      <string id="search_toggle">Search</string>
       <string id="sidebar_toggle">Sidebar Toggle</string>
       <string id="acc_slide_progress">slide progress</string>
       <string id="desktop_start">Start Course</string>
@@ -1537,7 +1522,6 @@
       <string id="search_results">Search Results</string>
       <string id="progress_second">second</string>
       <string id="progress_seconds">seconds</string>
-      <string id="settings_tip">Settings</string>
       <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
@@ -1548,9 +1532,21 @@
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
-      <string id="acc_submit">submit</string>
-      <string id="submit_tip">Submit</string>
-      <string id="unmute_tip">Unmute</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
       <string id="transcript_auto_scroll">Autoscroll</string>
       <string id="acc_window_close">Close</string>
       <string id="acc_video_transcript_list">Transcipt</string>
@@ -1562,7 +1558,6 @@
       <string id="transcript_show_timestamp">Show timestamps</string>
       <string id="video_transcript_title">Transcripts</string>
       <string id="acc_window_options">Options</string>
-      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1581,9 +1576,6 @@
           <links>
             <slidelink slideid="_player.5WxRwexv5Km.6RDa7AKvYaG" displaytext="Approach to a patient with UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6guhtHwYUGu" displaytext="Objectives" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6lanc8R4zIQ" displaytext="45 year old male presents with complaints of burning micturition, dysuria since 3 days. There is no history of urethral discharge. What is the most like diagnosis in this patient?" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.64xNOimjvVP" displaytext="A 22 year old female presents with history of dysuria, burning and frequency of micturition since 3 days. There is no history of vaginal discharge. What is most like diagnosis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5zAVQt3Q0tu" displaytext="Which of the following medication is contraindicated in pregnancy to treat UTIs?" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6XD3Sgzh95h" displaytext="Difference between Uncomplicated and Complicated UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5iPfEtuieG3" displaytext="Types of Scenarios" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6QzsMt3Uqgz" displaytext="Symptoms of UTI" expand="false" type="slide" />
@@ -1591,18 +1583,16 @@
             <slidelink slideid="_player.5WxRwexv5Km.6ggDQV2SioP" displaytext="Physical Examination" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6H2DtcdgTIX" displaytext="Confirming the diagnosis of UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6P4wIrXA4Ij" displaytext="Rationale of Sending Urine Culture" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6SpxFADiaHM" displaytext="Management of Complicated UTI" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.6SpxFADiaHM" displaytext="Management of Uncomplicated UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6app3FuAPiG" displaytext="UTI in Pregnancy" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6NRe8gVqK8T" displaytext="Treatment of UTI in Pregnancy" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5WoLfMaFvh1" displaytext="Case 3: A 40 years old man comes to your clinic with complaint of dysuria for 2 days." expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5tc9lJQV1H7" displaytext="Recurrent UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5s1dcIcFEv2" displaytext="Management of Recurrent UTI" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5dMNxZd6BIT" displaytext="Case 4: A 28-year-old male comes to your clinic with pain on left side of abdomen. " expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5zKJnEavlJV" displaytext="Approaching Case 3" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6Cpd1ATQL6B" displaytext="45 year old male presents with complaints of burning micturition, dysuria since 3 days. There is no history of urethral discharge. What is the most like diagnosis in this patient?" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6SgKFye6a2t" displaytext="A 22 year old female presents with history of dysuria, burning and frequency of micturition since 3 days. There is no history of vaginal discharge. What is most like diagnosis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6ekdDXuNb5y" displaytext="Which of the following medication is contraindicated in pregnancy to treat UTIs?" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.5zKJnEavlJV" displaytext="Approaching Case 4" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5YOi3XeS5Bg" displaytext="   " expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.6mKpczfcE87" displaytext="Key Points" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5syxP2uhOv7" displaytext="Diagnostic Approach - UTI" expand="false" type="slide" />
           </links>
         </slidelink>
